@@ -1,8 +1,8 @@
 region         = "eu-west-2"
-s3_bucket_name = "terraform-state-dev"
-dynamodb_table = "terraform-locks-dev"
+s3_bucket_name = "dev-terraform-state-mb""
+dynamodb_table = "dev-terraform-lock-table"
 
 tags = {
   Environment = "dev"
-  Project     = "your-project-name"
+  Project     = "Dev Infra"
 }

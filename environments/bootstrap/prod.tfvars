@@ -1,8 +1,8 @@
 region         = "eu-west-2"
-s3_bucket_name = "terraform-state-prod"
-dynamodb_table = "terraform-locks-prod"
+s3_bucket_name = "prod-terraform-state-mb"
+dynamodb_table = "prod-terraform-lock-table"
 
 tags = {
   Environment = "prod"
-  Project     = "your-project-name"
+  Project     = "Prod Infra"
 }
